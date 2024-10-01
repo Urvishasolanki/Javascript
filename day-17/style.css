@@ -1,0 +1,40 @@
+.sign{
+    border: 1px dotted black;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+#Sign-Up{
+    text-align: center;
+}
+#Sign-Up input{
+    height: 30px;
+    width: 80%;
+    
+}
+#Sign-Up #btn{
+ height: 30px;
+ width: 80px;
+}
+.main{
+    display: flex;
+   justify-content: center;
+  margin-top: 80px;
+}
+.login{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+}
+.login input{
+    height: 30px;
+    width: 80%;
+}
+.login #btn2{
+    height: 30px;
+    width: 80px;
+    margin-top: 20px;
+}

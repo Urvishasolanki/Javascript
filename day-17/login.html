@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .login{
+            display: none;
+          }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+    <div class="sign">
+        <h1>Sign-Up</h1>
+        <form id="Sign-Up" onsubmit="return validate()">
+            <input type="text" placeholder="Username" id="un" ><br><br>
+            <input type="text" placeholder="Email-id" id="e-i" ><br><br>
+            <input type="text" placeholder="password" id="password" ><br><br>
+            <input type="submit" id="btn">
+        </form>
+        <p id="s">you are already login</p>
+    </div>
+    <div class="login">
+        <h1>login</h1>
+        <form id="log">
+        
+            <input type="text" placeholder="Email" id="Email"><br><br>
+            <input type="text" placeholder="pass" id="pass"><br><br>
+            <input type="submit" id="btn2">
+        </form>
+        <p id="l">sign-in</p>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
